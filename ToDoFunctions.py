@@ -12,3 +12,4 @@ def write_todos(todos_list, filepath=FILE):
     """writes a to-do list to a file (default arg)"""
     with open(filepath,"w") as output_todos_local:
         output_todos_local.writelines(todos_list)
+
